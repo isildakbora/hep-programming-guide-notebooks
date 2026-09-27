@@ -1,1 +1,11 @@
 Initialized empty Git repository in /private/tmp/claude-501/-Users-boraisildak-cernbox-ytu-cms-web-book/d063581d-462e-4720-a095-24f14c060857/scratchpad/notebooks/.git/
+80 notebooks valid
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-boraisildak-cernbox-ytu-cms-web-book/d063581d-462e-4720-a095-24f14c060857/scratchpad/notebooks/publish.py", line 47, in <module>
+    run('git', 'push', '-u', 'origin', 'main')
+  File "/private/tmp/claude-501/-Users-boraisildak-cernbox-ytu-cms-web-book/d063581d-462e-4720-a095-24f14c060857/scratchpad/notebooks/publish.py", line 43, in run
+    def run(*a): subprocess.run(a, cwd=N, check=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/boraisildak/miniconda3/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '('git', 'push', '-u', 'origin', 'main')' died with <Signals.SIGTERM: 15>.
