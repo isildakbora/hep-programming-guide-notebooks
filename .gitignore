@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.root
+*.pdf
+*.png
+TASK_*.md
+nb_*.log
+publish.py
+exercises.json
